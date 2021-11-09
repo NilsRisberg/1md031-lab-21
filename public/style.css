@@ -1,1 +1,60 @@
-/*empty*/
+@import 'https://fonts.googleapis.com/css?family=HennyPenny|Dosis';
+header{
+  margin: 4em;
+  height: 10em;
+  overflow: hidden;
+}
+#rubrik{
+  position: absolute;
+  padding: 1.5em;
+  padding-left: 14em;
+  margin-top: -24em;
+}
+#huvudbild{
+  opacity: 0.7;
+  width: 100%;
+  height:auto;
+
+}
+
+body {
+   font-family: HarryPenny; sans-serif;
+}
+.väljburgare {
+
+border: 2px solid #ff9900;
+
+   color: white;
+   background-color: black;
+
+
+}
+
+#kött {
+   font-weight: bold;
+}
+.kunduppgifter {
+
+}
+button{
+  margin: 4em;
+}
+button:hover {
+  background-color: blue;
+
+
+}
+section{
+  margin: 4em;
+  padding: 3em;
+  border: 2px solid purple;
+
+}
+.wrapper {
+  border: 2px solid #ff9900;
+     display: grid;
+     grid-gap: 100px;
+     grid-template-columns: 300px 300px 300px;
+     background-color: black;
+     color: white;
+     padding: 2em;
