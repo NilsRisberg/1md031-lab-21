@@ -1,113 +1,17 @@
-<!DOCTYPE HTML>
-<html lang="en">
-   <head>
-       <title>Page title shown in window title</title>
-       <meta charset="utf-8"/>
-       <link rel="stylesheet" type="text/css" href="style.css">
-   </head>
-   <body>
-     <header>
-
-       <img src="https://minibladet.se/wp-content/uploads/2017/11/Pyramiderna.jpg" alt="" id ="huvudbild">
-       <h1 id = "rubrik">Välkommen till BurgerOnline</h1>
-     </header>
-     <main>
-<section class = "väljburgare">
-        <h3> välj burgare </h3>
-        <p> här väljer du burgare </p>
- <div class="wrapper">
-
-        <div>
-
-         <h4>den gode</h4>
-        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcxO04iFUX8coD911wyD1qsC11D1Vtthfatw&usqp=CAU height="200p">
-        <ol>
-            <li>bröd</li>
-            <li> <span id ="kött">kött </span> </li>
-            <li>ost</li>
-        </ol>
-      </div>
-      <div>
-
- <h4>den onde</h4>
-    <img src=https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_117784/cf_259/hamburgare_med_saftigt_brod_bakat_med_majonnas.jpg  height="200p">
-    <ol>
-    <li>bröd</li>
-    <li><span id ="kött">kött</span></li>
-    <li>sallad</li>
-  </ol>
-  </div>
-  <div>
- <h4>den fule</h4>
- <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9vAYgYztYeZZKgeQqe-of_i7Tc03H0eOELg&usqp=CAU height="200p">
-<ol>
-    <li>bröd</li>
-    <li><span id ="kött">kött</span></li>
-    <li>sås</li>
-</ol>
-  </div>
-</div>
-</section>
-
-
-<section id="contact" class="kunduppgifter">
-
-
-        <h3>kunduppgifter </h3>
-        <p> fyll i dina uppgifter </p>
-        <form class="" action="index.html" method="post">
-          <p>
-    <label for="firstname">Full name </label><br>
-    <input type="text" id="firstname" name="fn" required="required" placeholder="first and lastname">
-</p>
-<p>
-    <label for="street name"> Street</label><br>
-    <input type="text" id="street name" name="ln" placeholder="street name">
-</p>
-<p>
-  <label for="email">E-mail</label><br>
-    <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
-</p>
-<p>
-    <label for="housenumber">House</label><br>
-    <input type="number" id="housenumber" name="ln" placeholder="housenumber">
-</p>
-        </form>
-
-        <p>
-           <label for="recipient">payment</label><be>
-           <select id="recipient" name="rcp">
-               <option>pengar</option>
-               <option>kort</option>
-               <option>swish</option>
-               <option>paypal</option>
-               <option>klarna</option>
-           </select>
-        </p>
-        <div>
-<p>Kön</p>
-        <input type="radio" id="huey1" name="drone" value="huey"
-        checked>
-
- <label for="huey1">man</label>
- <input type="radio" id="huey2" name="drone" value="huey"
-        checked>
- <label for="huey2">kvinna</label>
- <input type="radio" id="huey3" name="drone" value="huey"
-        checked>
- <label for="huey3">annat</label>
-</div>
-
- <button type="submit">
-   <img src=srchttps://image.shutterstock.com/image-vector/send-icon-vector-design-symbol-260nw-1469563484.jpg>
-  Send Info
-</button>
-
-
-</section>
-
-      </main>
-      <hr>
-      <footer>copyright</footer>
-   </body>
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Den gode",
+    "kcal": 600,
+    "lactose": false,
+    "gluten": false,
+    "url": "https://static.wixstatic.com/media/12cc29_33d6a8cbd13b4dada6a6bc1a05ea9353~mv2.jpg/v1/fill/w_440,h_364,al_c,q_80,usm_0.66_1.00_0.01/Cheesewebb.webp"
+  }
+  ,
+
+    {
+    "name": "Den onde",
+    "kcal": 850,
+    "lactose": true,
+    "gluten": true,
+    "url": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_117784/cf_259/hamburgare_med_saftigt_brod_bakat_med_majonnas.jpg"
+  }
+  ,
+    {
+    "name": "Den fule",
+    "kcal": 700,
+    "lactose": true,
+    "gluten": false,
+    "url": "https://kaspers-websida.webnode.se/_files/system_preview_detail_200000019-6d5e06e57a-public/hamburgare.jpg"
+
+  }
+]

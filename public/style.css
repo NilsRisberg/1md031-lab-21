@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=HennyPenny|Dosis';
+@import 'https://fonts.googleapis.com/css?family=Arial|Dosis';
 header{
   margin: 4em;
   height: 10em;
@@ -18,7 +18,7 @@ header{
 }
 
 body {
-   font-family: HarryPenny; sans-serif;
+   font-family: Arial; sans-serif;
 }
 .väljburgare {
 
